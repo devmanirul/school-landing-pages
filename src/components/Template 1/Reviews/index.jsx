@@ -6,7 +6,8 @@ import reviewData from "../constant/reviews.constant";
 
 const Reviews = () => {
   return (
-    <div className="max-w-6xl mx-auto py-20">
+    <div className="max-w-6xl mx-auto py-10">
+      {/* header */}
       <h3 className="text-3xl font-semibold text-center">Reviews</h3>
       <div className="w-full flex flex-row gap-20 py-16">
         {/* left start */}

@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages";
 import GoodEducation from "../components/Template 1/GoodEducation";
 import Reviews from "../components/Template 1/Reviews";
+import Instructor from "../components/Template 1/Instructors";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/reviews",
     element: <Reviews />,
+  },
+  {
+    path: "/instructor",
+    element: <Instructor />,
   },
 ]);
 
