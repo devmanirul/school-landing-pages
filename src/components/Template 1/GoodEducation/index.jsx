@@ -16,21 +16,30 @@ const GoodEducation = () => {
       <div className="w-[1086px] flex flex-row gap-28">
         {/* left */}
         <div className="relative">
-                  <img src={goodEducationAvarter} alt="" className="" />
-                  {/* job opportunities */}
+          <div className="cursor-pointer overflow-hidden rounded-3xl group">
+            <img
+              src={goodEducationAvarter}
+              alt=""
+              className="h-full object-cover group-hover:scale-125 duration-500 group-hover:translate-x- group-hover:translate-y-5"
+            />
+          </div>
+          {/* job opportunities */}
           <div className="flex flex-col justify-start items-center gap-2 absolute bottom-10 -right-12 bg-white p-2 z-10 shadow-2xl rounded-lg">
             <div className="flex flex-col gap-1">
               <div className="bg-green-100 p-3 rounded-full">
                 <PiBag className="text-green-600" />
               </div>
               <div className="flex flex-col justify-center items-center">
-                <span className="text-green-600 font-bold text-center text-xl">Job</span>
+                <span className="text-green-600 font-bold text-center text-xl">
+                  Job
+                </span>
                 <img src={jobUnderline} alt="" className="h-1" />
               </div>
             </div>
             <h3 className="font-medium text-sm">Opportunities</h3>
           </div>
         </div>
+
         {/* right start */}
         <div className="flex flex-col gap-5">
           <h3 className="text-5xl font-bold leading-[60px]">
