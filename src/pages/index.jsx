@@ -1,6 +1,7 @@
 import GoodEducation from "../components/Template 1/GoodEducation";
 import Instructor from "../components/Template 1/Instructors";
-import QualityEducation from "../components/Template 1/QualityEducation";
+import Banner from "../components/Template 1/QualityEducation";
+// import QualityEducation from "../components/Template 1/QualityEducation";
 import Reviews from "../components/Template 1/Reviews";
 import Footer from "../components/Template 1/Shared/Footer";
 import Navbar from "../components/Template 1/Shared/Navbar";
@@ -10,7 +11,7 @@ const Home = () => {
   return (
     <div className="text-black">
       <Navbar />
-      <QualityEducation />
+      <Banner />
       <GoodEducation />
       <Reviews />
       <Instructor />
