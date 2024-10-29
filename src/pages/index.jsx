@@ -1,3 +1,4 @@
+import Favourite from "../components/Template 1/Favourite";
 import GoodEducation from "../components/Template 1/GoodEducation";
 import Instructor from "../components/Template 1/Instructors";
 import Banner from "../components/Template 1/QualityEducation";
@@ -12,6 +13,7 @@ const Home = () => {
     <div className="text-black">
       <Navbar />
       <Banner />
+      <Favourite />
       <GoodEducation />
       <Reviews />
       <Instructor />

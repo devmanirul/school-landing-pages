@@ -35,11 +35,11 @@ const Banner = () => {
             </figure>
           </div>
           {/* main image */}
-          <figure className="cursor-pointer overflow-hidden rounded-[38px] group">
+          <figure className="group cursor-pointer overflow-hidden rounded-[40px] rounded-br-[100px]">
             <img
               src={bannerGirl}
               alt=""
-              className="h-full object-cover group-hover:scale-125 duration-500 group-hover:translate-x- group-hover:translate-y-5"
+              className="object-cover group-hover:scale-125   duration-500 group-hover:-translate-x-16 group-hover:translate-y-16"
             />
           </figure>
           {/* right absolute position */}
