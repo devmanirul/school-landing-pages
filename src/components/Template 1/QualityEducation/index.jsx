@@ -68,10 +68,10 @@ const Banner = () => {
         <article className="max-w-7xl  mx-auto md:hidden grid grid-cols-2 justify-center items-center gap-2 z-30">
           {/* problem solving section */}
           <section className=" flex items-center gap-1 p-1 bg-[#DDFFFF] rounded-md">
-            <div className="">
-              <img src={problemSolving} alt="w-8 h-8" />
+            <div className="w-8 h-8">
+              <img src={problemSolving} alt="" />
             </div>
-            <p className="font-Poppins text-[11px]">Problem Solv</p>
+            <p className="font-Poppins text-[11px]">Problem Solvi</p>
           </section>
 
           {/* live chat section */}
