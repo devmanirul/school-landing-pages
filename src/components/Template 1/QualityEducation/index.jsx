@@ -3,7 +3,7 @@ import bannerGirl from "../../../assets/template1/banner/bannerGirl.png";
 import bannerUser from "../../../assets/template1/banner/bannerUser.png";
 import userLogo from "../../../assets/template1/banner/userLogo .png";
 import problemSolving from "../../../assets/template1/banner/problemSolving.png";
-// import liveChat from "../../assets/images/banner/chat.png";
+import liveChat from "../../../assets/template1/banner/chat.png";
 // import groupReading from "../../assets/images/banner/group-reading.png";
 // import book from "../../assets/images/banner/book.png";
 // import handOnActivities from "../../assets/images/banner/hand-on-activity.png";
@@ -67,20 +67,20 @@ const Banner = () => {
         {/* feature article section for mobile*/}
         <article className="max-w-7xl  mx-auto md:hidden grid grid-cols-2 justify-center items-center gap-2 z-30">
           {/* problem solving section */}
-          <section className=" flex items-center gap-1 p-1 bg-green-500 rounded-md">
-            <figure className="w-8 h-8">
-              <img src={problemSolving} alt="" />
-            </figure>
-            <p className="font-Poppins text-[11px]">Problem Solving</p>
+          <section className=" flex items-center gap-1 p-1 bg-[#DDFFFF] rounded-md">
+            <div className="">
+              <img src={problemSolving} alt="w-8 h-8" />
+            </div>
+            <p className="font-Poppins text-[11px]">Problem Solv</p>
           </section>
 
           {/* live chat section */}
-          {/* <section className=" flex items-center gap-1 p-1 bg-modified_green rounded-md">
+          <section className="bg-green-600 flex items-center gap-1 p-1 bg-modified_green rounded-md">
             <figure className="w-8 h-8">
               <img src={liveChat} alt="" />
             </figure>
             <p className="font-Poppins text-[11px]">Live Chat</p>
-          </section> */}
+          </section>
           {/* Group Reading section */}
           {/* <section className=" flex items-center gap-1 p-1 bg-modified_green rounded-md">
             <figure className="w-8 h-8">
