@@ -27,7 +27,7 @@ const Favourite = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className="max-w-6xl m-4 lg:mx-auto mb-8 lg:mb-24 p-4 md:p-0 border">
+    <section className="max-w-6xl m-4 lg:mx-auto mb-8 lg:mb-24 p-4 md:p-0">
       {/* heading */}
       <div className="flex justify-between items-start gap-6 mb-4 lg:mb-16">
         <h1 className="font-Poppins font-medium md:font-semibold text-base md:text-3xl text-gary">
@@ -48,15 +48,20 @@ const Favourite = () => {
           }}
           {...settings}
         >
-          <div className="ml-3 border border-blue-700 group overflow-hidden">
+          {/* marketing */}
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
-              <img src={marketing} alt="" />
+              <img
+                src={marketing}
+                alt=""
+                className="h-full w-full object-cover"
+              />
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}
-            <div className="absolute px-5 -bottom-10 group-hover:bottom-40 duration-500">
-              <h1 className="text-xl font-extrabold text-white">Marketing</h1>
-              <p className="mt-2 mb- text-white">
+            <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
+              <h1 className="text-xl font-extrabold text-white">Marketing1</h1>
+              <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
                 Voluptatum suscipit dolorum quo, voluptates nobis architecto
@@ -65,15 +70,20 @@ const Favourite = () => {
               </p>
             </div>
           </div>
-          <div className="ml-3 border border-blue-700 group overflow-hidden">
+          {/* design */}
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
-              <img src={marketing} alt="" />
+              <img
+                src={marketing}
+                alt=""
+                className="h-full w-full object-cover"
+              />
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}
-            <div className="absolute px-5 -bottom-[212px] group-hover:bottom-0 duration-500">
-              <h1 className="text-xl font-extrabold text-white">Marketing</h1>
-              <p className="mt-2 mb- text-white">
+            <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
+              <h1 className="text-xl font-extrabold text-white">Design</h1>
+              <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
                 Voluptatum suscipit dolorum quo, voluptates nobis architecto
@@ -82,15 +92,20 @@ const Favourite = () => {
               </p>
             </div>
           </div>
-          <div className="ml-3 border border-blue-700 group overflow-hidden">
+          {/* programming */}
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
-              <img src={marketing} alt="" />
+              <img
+                src={marketing}
+                alt=""
+                className="h-full w-full object-cover"
+              />
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}
-            <div className="absolute px-5 -bottom-[212px] group-hover:bottom-0 duration-500">
-              <h1 className="text-xl font-extrabold text-white">Marketing</h1>
-              <p className="mt-2 mb- text-white">
+            <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
+              <h1 className="text-xl font-extrabold text-white">Programming</h1>
+              <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
                 Voluptatum suscipit dolorum quo, voluptates nobis architecto
@@ -99,15 +114,20 @@ const Favourite = () => {
               </p>
             </div>
           </div>
-          <div className="ml-3 border border-blue-700 group overflow-hidden">
+          {/* technology */}
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
-              <img src={marketing} alt="" />
+              <img
+                src={marketing}
+                alt=""
+                className="h-full w-full object-cover"
+              />
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}
-            <div className="absolute px-5 -bottom-[212px] group-hover:bottom-0 duration-500">
-              <h1 className="text-xl font-extrabold text-white">Marketing</h1>
-              <p className="mt-2 mb- text-white">
+            <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
+              <h1 className="text-xl font-extrabold text-white">Technology</h1>
+              <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
                 Voluptatum suscipit dolorum quo, voluptates nobis architecto
@@ -116,15 +136,20 @@ const Favourite = () => {
               </p>
             </div>
           </div>
-          <div className="ml-3 border border-blue-700 group overflow-hidden">
+          {/* extra */}
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
-              <img src={marketing} alt="" />
+              <img
+                src={marketing}
+                alt=""
+                className="h-full w-full object-cover"
+              />
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}
-            <div className="absolute px-5 -bottom-[212px] group-hover:bottom-0 duration-500">
-              <h1 className="text-xl font-extrabold text-white">Marketing</h1>
-              <p className="mt-2 mb- text-white">
+            <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
+              <h1 className="text-xl font-extrabold text-white">Marketing1</h1>
+              <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
                 Voluptatum suscipit dolorum quo, voluptates nobis architecto
@@ -144,7 +169,7 @@ const Favourite = () => {
         {/* right left */}
         <figure
           onClick={next}
-          className="absolute right-12 top-[40%] cursor-pointer"
+          className="absolute right-4 top-[40%] cursor-pointer"
         >
           <img src={arrowRight} alt="" />
         </figure>

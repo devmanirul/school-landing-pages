@@ -41,7 +41,6 @@ const Banner = () => {
               alt=""
               className="object-cover group-hover:scale-125 duration-500 group-hover:-translate-x-16 group-hover:translate-y-16"
             />
-            
           </figure>
           {/* right absolute position */}
           <div className="w-20 md:w-24 lg:w-32 absolute top-[60%]  lg:top-[65%] right-8 md:right-2  lg:right-4 p-2 lg:p-3 bg-white rounded-xl flex flex-col items-center gap-1 md:gap-3 z-20">
@@ -109,31 +108,31 @@ const Banner = () => {
         </article>
       </section>
       {/* article section for desktop and tablet */}
-      <article className=" max-w-7xl m-4 lg:mx-auto hidden md:flex justify-between md:gap-2 lg:gap-12 pb-36">
+      <article className=" max-w-6xl lg:mx-auto hidden md:flex justify-between md:gap-2 lg:gap-12 pb-36">
         {/* problem solving section */}
-        <section className="flex items-center md:gap-2  lg:gap-2 md:px-2 lg:px-6 py-2 bg-modified_green rounded-md">
+        <section className="flex items-center md:gap-2  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
           <figure>{/* <img src={problemSolving} alt="" /> */}</figure>
           <p className="font-Poppins">Problem Solving</p>
         </section>
         {/* live chat section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-modified_green rounded-md">
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
           <figure>{/* <img src={liveChat} alt="" /> */}</figure>
           <p className="font-Poppins">Live Chat</p>
         </section>
         {/* Group Reading section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-modified_green rounded-md">
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2  bg-green-300 rounded-md">
           <figure>{/* <img src={groupReading} alt="" /> */}</figure>
           <p className="font-Poppins">Group Reading</p>
         </section>
 
         {/* 10k Courses section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-modified_green rounded-md">
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
           <figure>{/* <img src={book} alt="" /> */}</figure>
           <p className="font-Poppins">10k Courses</p>
         </section>
 
         {/* Hand-on activities section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-modified_green rounded-md">
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
           <figure>{/* <img src={handOnActivities} alt="" /> */}</figure>
           <p className="font-Poppins">Hand-on activities</p>
         </section>

@@ -39,7 +39,6 @@ const GoodEducation = () => {
             <h3 className="font-medium text-sm">Opportunities</h3>
           </div>
         </div>
-
         {/* right start */}
         <div className="flex flex-col gap-5">
           <h3 className="text-5xl font-bold leading-[60px]">
