@@ -16,7 +16,7 @@ const GoodEducation = () => {
       <div className="w-[1086px] flex flex-row gap-28">
         {/* left */}
         <div className="relative">
-          <div className="cursor-pointer overflow-hidden rounded-3xl group">
+          <div className="cursor-pointer overflow-hidden rounded-[28px] rounded-br-[72px] group">
             <img
               src={goodEducationAvarter}
               alt=""

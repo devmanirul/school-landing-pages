@@ -35,7 +35,7 @@ const Banner = () => {
             </figure>
           </div>
           {/* main image */}
-          <figure className="relative group cursor-pointer  overflow-hidden rounded-[40px] rounded-br-[100px]">
+          <figure className="relative group cursor-pointer overflow-hidden rounded-[40px] rounded-br-[100px]">
             <img
               src={bannerGirl}
               alt=""

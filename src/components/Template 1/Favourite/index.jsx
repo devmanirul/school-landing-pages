@@ -43,14 +43,14 @@ const Favourite = () => {
       {/* course and image desktop section */}
       <div className="gap-8 relative">
         <Slider
-          className="border-2 border-red-800"
+          className=""
           ref={(slider) => {
             sliderRef = slider;
           }}
           {...settings}
         >
           {/* marketing */}
-          <div className="group overflow-hidden w-72 h-full mx-auto pl-1 border-2 border-red-800">
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
               <img
                 src={marketing}
@@ -92,7 +92,7 @@ const Favourite = () => {
             </div>
           </div>
           {/* programming */}
-          <div className="group overflow-hidden w-72 h-full mx-auto pl-1 border-2 border-red-800">
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
               <img
                 src={programming}
@@ -115,7 +115,7 @@ const Favourite = () => {
             </div>
           </div>
           {/* technology */}
-          <div className="group overflow-hidden w-72 h-full mx-auto pl-1 border-2 border-red-800">
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
               <img
                 src={technology}
