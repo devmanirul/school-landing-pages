@@ -4,9 +4,9 @@ import bannerUser from "../../../assets/template1/banner/bannerUser.png";
 import userLogo from "../../../assets/template1/banner/userLogo .png";
 import problemSolving from "../../../assets/template1/banner/problemSolving.png";
 import liveChat from "../../../assets/template1/banner/chat.png";
-// import groupReading from "../../assets/images/banner/group-reading.png";
-// import book from "../../assets/images/banner/book.png";
-// import handOnActivities from "../../assets/images/banner/hand-on-activity.png";
+import groupReading from "../../../assets/template1/banner/userLogo .png";
+import book from "../../../assets/template1/banner/10Course.png";
+import handOnActivities from "../../../assets/template1/banner/hand.png";
 
 const Banner = () => {
   return (
@@ -110,30 +110,40 @@ const Banner = () => {
       {/* article section for desktop and tablet */}
       <article className=" max-w-6xl lg:mx-auto hidden md:flex justify-between md:gap-2 lg:gap-12 pb-36">
         {/* problem solving section */}
-        <section className="flex items-center md:gap-2  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
-          <figure>{/* <img src={problemSolving} alt="" /> */}</figure>
+        <section className="flex items-center md:gap-2  lg:gap-2 md:px-2 lg:px-5 py-2 bg-[#DDFFFF] rounded-md">
+          <figure>
+            <img src={problemSolving} alt="" />
+          </figure>
           <p className="font-Poppins">Problem Solving</p>
         </section>
         {/* live chat section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
-          <figure>{/* <img src={liveChat} alt="" /> */}</figure>
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-5 py-2 bg-[#DDFFFF] rounded-md">
+          <figure>
+            <img src={liveChat} alt="" />
+          </figure>
           <p className="font-Poppins">Live Chat</p>
         </section>
         {/* Group Reading section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2  bg-green-300 rounded-md">
-          <figure>{/* <img src={groupReading} alt="" /> */}</figure>
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-5 py-2  bg-[#DDFFFF] rounded-md">
+          <figure>
+            <img src={groupReading} alt="" />
+          </figure>
           <p className="font-Poppins">Group Reading</p>
         </section>
 
         {/* 10k Courses section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
-          <figure>{/* <img src={book} alt="" /> */}</figure>
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-[#DDFFFF] rounded-md">
+          <figure>
+            <img src={book} alt="" />
+          </figure>
           <p className="font-Poppins">10k Courses</p>
         </section>
 
         {/* Hand-on activities section */}
-        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-6 py-2 bg-green-300 rounded-md">
-          <figure>{/* <img src={handOnActivities} alt="" /> */}</figure>
+        <section className="flex items-center md:gap-1  lg:gap-2 md:px-2 lg:px-5 py-2 bg-[#DDFFFF] rounded-md">
+          <figure>
+            <img src={handOnActivities} alt="" />
+          </figure>
           <p className="font-Poppins">Hand-on activities</p>
         </section>
       </article>

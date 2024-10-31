@@ -2,9 +2,9 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import marketing from "../../../assets/template1/favorite/favourite1.png";
-// import design from "../../assets/images/favourite/Component 22.png";
-// import programming from "../../assets/images/favourite/Component 25.png";
-// import technology from "../../assets/images/favourite/Component 26 (1).png";
+import design from "../../../assets/template1/favorite/favourite2.png";
+import programming from "../../../assets/template1/favorite/favourite3.png";
+import technology from "../../../assets/template1/favorite/favourite4.png";
 import arrowLeft from "../../../assets/template1/favorite/leftArrow.png";
 import arrowRight from "../../../assets/template1/favorite/rigthArrow.png";
 import React from "react";
@@ -43,24 +43,26 @@ const Favourite = () => {
       {/* course and image desktop section */}
       <div className="gap-8 relative">
         <Slider
+          className="border-2 border-red-800"
           ref={(slider) => {
             sliderRef = slider;
           }}
           {...settings}
         >
           {/* marketing */}
-          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1 border-2 border-red-800">
             <div className="relative rounded-lg object-cover">
               <img
                 src={marketing}
                 alt=""
                 className="h-full w-full object-cover"
               />
-              {/* <img src={design} alt="" /> */}
+              <div className="bg-black/50 absolute inset-0"></div>
             </div>
+
             {/* contant container */}
             <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
-              <h1 className="text-xl font-extrabold text-white">Marketing1</h1>
+              <h1 className="text-xl font-extrabold text-white">Technology</h1>
               <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
@@ -73,11 +75,8 @@ const Favourite = () => {
           {/* design */}
           <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
             <div className="relative rounded-lg object-cover">
-              <img
-                src={marketing}
-                alt=""
-                className="h-full w-full object-cover"
-              />
+              <img src={design} alt="" className="h-full w-full object-cover" />
+              <div className="bg-black/50 absolute inset-0"></div>
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}
@@ -93,18 +92,19 @@ const Favourite = () => {
             </div>
           </div>
           {/* programming */}
-          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1 border-2 border-red-800">
             <div className="relative rounded-lg object-cover">
               <img
-                src={marketing}
+                src={programming}
                 alt=""
                 className="h-full w-full object-cover"
               />
+              <div className="bg-black/50 absolute inset-0"></div>
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}
             <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
-              <h1 className="text-xl font-extrabold text-white">Programming</h1>
+              <h1 className="text-xl font-extrabold text-white">Technology</h1>
               <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
@@ -115,13 +115,14 @@ const Favourite = () => {
             </div>
           </div>
           {/* technology */}
-          <div className="group overflow-hidden w-72 h-full mx-auto pl-1">
+          <div className="group overflow-hidden w-72 h-full mx-auto pl-1 border-2 border-red-800">
             <div className="relative rounded-lg object-cover">
               <img
-                src={marketing}
+                src={technology}
                 alt=""
                 className="h-full w-full object-cover"
               />
+              <div className="bg-black/50 absolute inset-0"></div>
               {/* <img src={design} alt="" /> */}
             </div>
             {/* contant container */}

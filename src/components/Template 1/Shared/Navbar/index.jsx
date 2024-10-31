@@ -27,7 +27,8 @@ const Navbar = () => {
         <ul className="font-Open_Sans font-semibold text-base flex gap-6">
           <li>
             <a href="#" target="_blank" rel="noopener noreferrer">
-              Home
+              <p className="block hover:hidden">Home</p>
+              <p className="font-bold hidden hover:block duration-500">Home</p>
             </a>
           </li>
           <li>
