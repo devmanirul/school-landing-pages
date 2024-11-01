@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import starImg from "../../../../assets/template1/popularCourse/starImg.png";
 import groupLogo from "../../../../assets/template1/popularCourse/groupLogo.png";
-const CourseCard = ({ title, image, star, students, price, weeks }) => {
+const SkillCard = ({ title, image, star, students, price, weeks }) => {
   return (
     <div className=" lg:col-span-4 flex flex-col gap-1 lg:gap-4 rounded-md shadow-black/10 shadow-lg hover:-translate-y-10 duration-500">
       <figure>
@@ -49,4 +49,4 @@ const CourseCard = ({ title, image, star, students, price, weeks }) => {
   );
 };
 
-export default CourseCard;
+export default SkillCard;

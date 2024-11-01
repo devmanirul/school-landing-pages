@@ -62,7 +62,7 @@ const Favourite = () => {
 
             {/* contant container */}
             <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
-              <h1 className="text-xl font-extrabold text-white">Technology</h1>
+              <h1 className="text-xl font-extrabold text-white">Marketing</h1>
               <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.
@@ -104,7 +104,7 @@ const Favourite = () => {
             </div>
             {/* contant container */}
             <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
-              <h1 className="text-xl font-extrabold text-white">Technology</h1>
+              <h1 className="text-xl font-extrabold text-white">Programming</h1>
               <p className="mt-2 mb-1 text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi obcaecati blanditiis reiciendis dignissimos possimus.

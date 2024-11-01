@@ -8,6 +8,7 @@ import Footer from "../components/Template 1/Shared/Footer";
 import Navbar from "../components/Template 1/Shared/Navbar";
 import StairCase from "../components/Template 1/StairCase";
 import PopularCourse from "../components/Template 1/PopularCourse";
+import NewSkill from "../components/Template 1/NewSkill";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Banner />
       <Favourite />
       <PopularCourse />
+      <NewSkill />
       <GoodEducation />
       <Reviews />
       <Instructor />
