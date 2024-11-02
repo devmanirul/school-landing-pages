@@ -27,7 +27,7 @@ const Favourite = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className="max-w-6xl m-4 lg:mx-auto mb-8 lg:mb-24 p-4 md:p-0">
+    <section className=" md:max-w-6xl m-4 lg:mx-auto mb-8 lg:mb-24 p-4 md:p-0">
       {/* heading */}
       <div className="flex justify-between items-start gap-6 mb-4 lg:mb-16">
         <h1 className="font-Poppins font-medium md:font-semibold text-base md:text-3xl text-gary">
@@ -175,7 +175,6 @@ const Favourite = () => {
           <img src={arrowRight} alt="" />
         </figure>
       </div>
-
       {/* course and image mobile section */}
       <div className="md:hidden flex justify-between gap-4 relative">
         <figure className="">

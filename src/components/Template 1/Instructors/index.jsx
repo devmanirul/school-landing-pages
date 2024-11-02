@@ -3,12 +3,12 @@ import InstructorCard from "./InstructorCard";
 
 const Instructor = () => {
   return (
-    <div className="max-w-6xl mx-auto py-10">
+    <div className="max-w-6xl mx-auto px-5 md:py-10">
       {/* header */}
       <h3 className="text-3xl font-semibold text-center">
         Meet Out Instructor
       </h3>
-      <div className="w-full flex flex-row justify-between py-16">
+      <div className="w-full flex flex-col gap-5 md:gap-0 md:flex-row justify-between py-16">
         {instructorData.map((view) => (
           <div key={view.id} className="">
             {/* Passing all props to ReviewCard */}

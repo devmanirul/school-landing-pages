@@ -7,7 +7,7 @@ import hamburger from "../../../../assets/template1/navbar/hamburger.png";
 
 const Navbar = () => {
   return (
-    <div className="max-w-6xl mx-auto flex flex-row justify-between items-center px-4 md:px-0 py-7">
+    <div className="md:max-w-6xl mx-auto flex flex-row justify-between items-center px-4 md:px-0 py-7">
       {/* left section */}
       <section
         className="flex items-center

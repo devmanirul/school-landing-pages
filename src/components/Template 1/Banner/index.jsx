@@ -11,21 +11,21 @@ import handOnActivities from "../../../assets/template1/banner/hand.png";
 const Banner = () => {
   return (
     <>
-      <section className="max-w-7xl lg:mx-auto h-full lg:h-[605px] flex flex-col md:flex-row justify-between items-center gap-10 lg:gap-0 rounded-none md:rounded-[50px] bg-banner_bg_color relative  lg:mb-20 py-14 md:py-0 px-4 lg:px-0 md:m-4 ">
+      <section className="max-w-6xl lg:mx-auto h-full lg:h-[605px] flex flex-col md:flex-row justify-between items-center gap-10 lg:gap-0 rounded-none md:rounded-[50px] bg-[#F4FBF7] relative lg:mb-20 py-5 md:py-0 px-4 lg:px-0 md:m-4">
         {/* left side */}
         <aside className="w-full md:w-6/12 flex flex-col gap-12 p-4 md:pl-14 z-20">
           <h1 className="font-Poppins font-bold text-3xl lg:text-6xl leading-[48px] lg:leading-[90px]">
-            Quality <span className="text-green">Education</span> By Any Means
-            Necessary.
+            Quality <span className="text-green-600">Education</span> By Any
+            Means Necessary.
           </h1>
-          <button className="w-fit bg-green rounded-md font-Source_Code_Pro text-white font-semibold py-5 px-10 outline-none">
+          <button className="w-fit bg-green-600 rounded-md font-Source_Code_Pro text-white font-semibold py-5 px-10 outline-none">
             <a href="#">Get Started</a>
           </button>
         </aside>
         {/* right Section */}
-        <section className="relative w-full md:w-6/12 flex justify-center md:justify-end p-10 md:pr-10 right-20 z-10">
+        <section className="relative w-full md:w-6/12 flex justify-center md:justify-end p-5 md:p-10 md:pr-10 z-10">
           {/* left absolute position */}
-          <div className="w-28 md:w-36  z-20 lg:w-64 absolute top-1/2 left-0 p-1 md:p-4 bg-white rounded-xl flex flex-col items-center gap-1 md:gap-3 border">
+          <div className="w-28 md:w-36 z-20 lg:w-64 absolute top-1/2 left-0 p-1 md:p-4 bg-white rounded-xl flex flex-col items-center gap-1 md:gap-3 border">
             <p className="text-center font-Poppins font-semibold text-[10px] lg:text-xl ">
               Learn from best <span className="text-green">instructors</span>
               around the globe
@@ -43,29 +43,28 @@ const Banner = () => {
             />
           </figure>
           {/* right absolute position */}
-          <div className="w-20 md:w-24 lg:w-32 absolute top-[60%]  lg:top-[65%] right-8 md:right-2  lg:right-4 p-2 lg:p-3 bg-white rounded-xl flex flex-col items-center gap-1 md:gap-3 z-20">
+          <div className="w-20 md:w-24 lg:w-32 absolute top-[60%]  lg:top-[65%] right-0 md:right-2 lg:right-4 p-2 lg:p-3 bg-white rounded-xl flex flex-col items-center gap-1 md:gap-3 z-20">
             <figure className="flex ">
               <img src={userLogo} alt="" />
             </figure>
             <p className="text-center font-Poppins font-semibold text-sm lg:text-2xl text-green">
               15k
             </p>
-
             <p className="text-center font-Poppins font-medium text-[7px] lg:text-xs ">
               Amazing students around the globe
             </p>
           </div>
         </section>
-        {/* right bar section */}
-        <figure className="absolute inset-y-0  h-full right-[70px]">
+        {/* right blue bar section */}
+        <figure className="absolute inset-y-0 h-full right-0">
           <img
-            className="rounded-r-none md:rounded-r-[50px] h-full"
+            className="rounded-r-none md:rounded-r-[50px] w-28 h-full"
             src={bannerRight}
             alt=""
           />
         </figure>
         {/* feature article section for mobile*/}
-        <article className="max-w-7xl  mx-auto md:hidden grid grid-cols-2 justify-center items-center gap-2 z-30">
+        <article className="max-w-6xl mx-auto md:hidden grid grid-cols-2 justify-center items-center gap-6 z-30 border border-red-300">
           {/* problem solving section */}
           <section className=" flex items-center gap-1 p-1 bg-[#DDFFFF] rounded-md">
             <div className="w-8 h-8">
@@ -73,38 +72,34 @@ const Banner = () => {
             </div>
             <p className="font-Poppins text-[11px]">Problem Solvi</p>
           </section>
-
           {/* live chat section */}
-          <section className="bg-green-600 flex items-center gap-1 p-1 bg-modified_green rounded-md">
+          <section className="bg-[#DDFFFF] flex items-center gap-1 p-1 bg-modified_green rounded-md">
             <figure className="w-8 h-8">
               <img src={liveChat} alt="" />
             </figure>
             <p className="font-Poppins text-[11px]">Live Chat</p>
           </section>
           {/* Group Reading section */}
-          {/* <section className=" flex items-center gap-1 p-1 bg-modified_green rounded-md">
+          <section className=" flex items-center gap-1 p-1 bg-[#DDFFFF] rounded-md">
             <figure className="w-8 h-8">
               <img src={groupReading} alt="" />
             </figure>
             <p className="font-Poppins text-[11px]">Group Reading</p>
-          </section> */}
-
+          </section>
           {/* 10k Courses section */}
-          {/* <section className=" flex items-center gap-1 p-1 bg-modified_green rounded-md">
+          <section className=" flex items-center gap-1 p-1 bg-[#DDFFFF] rounded-md">
             <figure className="w-8 h-8">
               <img src={book} alt="" />
             </figure>
             <p className="font-Poppins text-[11px]">10k Courses</p>
-          </section> */}
-          {/* <div className="col-span-2 flex  py-2 justify-center items-center"> */}
+          </section>
           {/* Hand-on activities section */}
-          {/* <section className=" w-fit flex justify-center items-center gap-1 p-1 bg-modified_green rounded-md">
-              <figure className="w-8 h-8">
-                <img src={handOnActivities} alt="" />
-              </figure>
-              <p className="font-Poppins text-[11px]">Hand-on Activities</p>
-            </section> */}
-          {/* </div> */}
+          <section className=" w-fit flex justify-center items-center gap-1 p-1 bg-[#DDFFFF] rounded-md">
+            <figure className="w-8 h-8">
+              <img src={handOnActivities} alt="" />
+            </figure>
+            <p className="font-Poppins text-[11px]">Hand-on Activities</p>
+          </section>
         </article>
       </section>
       {/* article section for desktop and tablet */}
