@@ -145,7 +145,7 @@ const Favourite = () => {
                 alt=""
                 className="h-full w-full object-cover"
               />
-              {/* <img src={design} alt="" /> */}
+              <div className="bg-black/50 absolute inset-0"></div>
             </div>
             {/* contant container */}
             <div className="absolute px-3 -bottom-52 group-hover:bottom-3 duration-1000 w-72">
