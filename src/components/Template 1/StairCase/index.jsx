@@ -11,13 +11,11 @@ const StairCase = () => {
   return (
     <div
       style={divStyle}
-      className="bg-black/80 z-50 w-full mt-10 relative px-5 md:px-0 py-0 md:py-8"
+      className="bg-[#70777F] z-50 w-full mt-10 relative px-5 md:px-0 py-0 md:py-8"
     >
       {/* gif img */}
-      <div className="w-full flex-row absolute bottom-0 object-cover overflow-hidden lg:block hidden ">
-        <img src={gifImg} alt="" className="w-full h-36 z-10 opacity-80" />
-        {/* Gradient Overlay  */}
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-500 via-gray-500 to-transparent opacity-80"></div>
+      <div className="w-full flex-row absolute z-10 opacity-20 bottom-0 object-cover overflow-hidden lg:block hidden ">
+        <img src={gifImg} alt="" className="w-full h-[520px]" />
       </div>
       <div className="">
         {/* main staircase */}
