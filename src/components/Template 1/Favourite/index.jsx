@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import marketing from "../../../assets/template1/favorite/favourite1.png";
 import design from "../../../assets/template1/favorite/favourite2.png";
 import programming from "../../../assets/template1/favorite/favourite3.png";

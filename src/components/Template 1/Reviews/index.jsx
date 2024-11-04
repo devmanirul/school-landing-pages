@@ -1,10 +1,21 @@
 import underline from "../../../assets/template1/reviews/underline.png";
 import { RiArrowLeftSLine } from "react-icons/ri";
 import { RiArrowRightSLine } from "react-icons/ri";
-import ReviewCard from "./ReviewCard";
-import reviewData from "../constant/reviews.constant";
+import reviewImg1 from "../../../assets/template1/reviews/review1.png";
+import reviewImg2 from "../../../assets/template1/reviews/review2.png";
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Reviews = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+  };
   return (
     <div className="max-w-6xl mx-auto px-5 md:px-0 md:py-10">
       {/* header */}
@@ -38,21 +49,71 @@ const Reviews = () => {
             </div>
           </div>
         </div>
-        {reviewData.map((view) => (
-          <div key={view.id} className="md:w-8/12 md:p-4">
-            {/* Passing all props to ReviewCard */}
-            <ReviewCard
-              img={view.img}
-              name={view.name}
-              rank={view.rank}
-              description={view.description}
-            />
+        {/* <Slider {...settings}> */}
+          {/* card 1 */}
+          <div className="flex flex-col gap-5">
+            <div className="flex flex-row items-center gap-5">
+              {/* Rendering the image */}
+              <img src={reviewImg1} alt={name} className="w-16 h-16" />
+              <div className="flex flex-col gap-1">
+                {/* Using props for dynamic content */}
+                <h3 className="text-2xl font-bold">Mohh Jumah</h3>
+                <p className="text-green-600 font-medium text-xl">
+                  Senior Developer
+                </p>
+              </div>
+            </div>
+            {/* Rendering the description */}
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Consectetur ac blandit nam massa massa elementum mollis lectus.
+              Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis
+              imperdiet venenatis
+            </p>
           </div>
-        ))}
-
-        {/* left end */}
-        {/* right start */}
-        {/* right end */}
+          {/* card 2 */}
+          <div className="flex flex-col gap-5">
+            <div className="flex flex-row items-center gap-5">
+              {/* Rendering the image */}
+              <img src={reviewImg2} alt={name} className="w-16 h-16" />
+              <div className="flex flex-col gap-1">
+                {/* Using props for dynamic content */}
+                <h3 className="text-2xl font-bold">John Mark</h3>
+                <p className="text-green-600 font-medium text-xl">
+                  Data Analyst
+                </p>
+              </div>
+            </div>
+            {/* Rendering the description */}
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Consectetur ac blandit nam massa massa elementum mollis lectus.
+              Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis
+              imperdiet venenatis
+            </p>
+        </div>
+        {/* card 3 */}
+          <div className="flex flex-col gap-5">
+            <div className="flex flex-row items-center gap-5">
+              {/* Rendering the image */}
+              <img src={reviewImg2} alt={name} className="w-16 h-16" />
+              <div className="flex flex-col gap-1">
+                {/* Using props for dynamic content */}
+                <h3 className="text-2xl font-bold">John Mark</h3>
+                <p className="text-green-600 font-medium text-xl">
+                  Data Analyst
+                </p>
+              </div>
+            </div>
+            {/* Rendering the description */}
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Consectetur ac blandit nam massa massa elementum mollis lectus.
+              Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis
+              imperdiet venenatis
+            </p>
+          </div>
+        {/* </Slider> */}
       </div>
     </div>
   );
