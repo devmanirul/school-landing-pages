@@ -7,7 +7,7 @@ const reviewData = [
     id: 1,
     img: review1,
     name: "Mohh Jumah",
-    rank: "Senior Developer", // fixed typo "Deveper"
+    rank: "Senior Developer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus. Interdum duis imperdiet venenatis",
   },
